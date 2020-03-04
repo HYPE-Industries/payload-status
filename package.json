@@ -1,0 +1,11 @@
+{
+  "name": "payload-status",
+  "version": "1.0.0",
+  "description": "Easliy return data to function with logs, package number, and error status.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HYPE Industries",
+  "license": "MIT"
+}
