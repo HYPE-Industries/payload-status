@@ -1,3 +1,8 @@
+![npm](https://img.shields.io/npm/v/payload-status)
+![GitHub issues](https://img.shields.io/github/issues/HYPE-Industries/payload-status)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/HYPE-Industries/payload-status)
+![GitHub](https://img.shields.io/github/license/HYPE-Industries/payload-status)
+
 # Payload Status
 #### Transport Capsule for multidimensional data travelers
 Payload Status is a node.js module designed to help elevate some of the promblem with reporting multiple error messages. When working on backend servers and building abstract system, I ran into a promblem. I would call a function that would have built in error codes, and there was no easy to return that the function failed and return a message. The best way to get around this without a library is a promise with a reject and resolve, but this allows you to add multiple logs.
@@ -18,7 +23,7 @@ Payload Status is a node.js module designed to help elevate some of the promblem
 - `foo.manifest()` - return the object of the payload
 - `foo.reset()` - reset everything in the payload
 
-
+<br>
 
 ## Creating Payload
 Creating a new payload is very easy. Make sure the payload module is install and that you import it inside your script. Then you can just create a new payload instance. You don't have to add cargo when you initialize the payload. You can set the status and stage of the payload when it's initialize. Use the command `new Payload( _cargo, _status, _stage );` to initialize a payload.
@@ -141,6 +146,7 @@ response0.reset();
 - add manifest documentation
 - write test file
 - add license
+- add minfier to make system build
 
 ---
 
